@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "eoas",
+  "info": {
+    "singularName": "eoa",
+    "pluralName": "eoas",
+    "displayName": "Eoa"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "EoA_pdf": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "heading": {
+      "type": "string"
+    }
+  }
+}

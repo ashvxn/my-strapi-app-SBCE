@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "handbooks",
+  "info": {
+    "singularName": "handbook",
+    "pluralName": "handbooks",
+    "displayName": "handbooks"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pdf_name": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "handbook_name": {
+      "type": "string"
+    }
+  }
+}

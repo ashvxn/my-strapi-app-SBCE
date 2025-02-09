@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_page_counts",
+  "info": {
+    "singularName": "home-page-count",
+    "pluralName": "home-page-counts",
+    "displayName": "Home_page_count"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "admissions": {
+      "type": "biginteger"
+    },
+    "undergraduate": {
+      "type": "biginteger"
+    },
+    "postgraduate": {
+      "type": "biginteger"
+    },
+    "reaserch": {
+      "type": "biginteger"
+    }
+  }
+}
