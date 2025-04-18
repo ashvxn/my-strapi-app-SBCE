@@ -1,0 +1,104 @@
+{
+  "kind": "singleType",
+  "collectionName": "managements",
+  "info": {
+    "singularName": "management",
+    "pluralName": "managements",
+    "displayName": "Management",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Chairman_name": {
+      "type": "string"
+    },
+    "Chairman_info": {
+      "type": "text"
+    },
+    "Chairman_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Secretary_name": {
+      "type": "string"
+    },
+    "Secretary_info": {
+      "type": "text"
+    },
+    "Secretary_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Vice_chairman_name": {
+      "type": "string"
+    },
+    "Vice_chairman_info": {
+      "type": "text"
+    },
+    "Vice_chairman_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Joint_secretary_name": {
+      "type": "string"
+    },
+    "Joint_secretary_info": {
+      "type": "string"
+    },
+    "Joint_secretary_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Treasurer_name": {
+      "type": "string"
+    },
+    "Treasurer_info": {
+      "type": "text"
+    },
+    "Treasurer_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Advisory_committee": {
+      "type": "json"
+    }
+  }
+}

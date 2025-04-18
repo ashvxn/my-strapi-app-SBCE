@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_association_and_clubs",
+  "info": {
+    "displayName": "Association_and_clubs"
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

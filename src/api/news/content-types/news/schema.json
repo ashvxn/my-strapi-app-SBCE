@@ -28,6 +28,9 @@
         "videos",
         "audios"
       ]
+    },
+    "news_link": {
+      "type": "string"
     }
   }
 }

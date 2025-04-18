@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_shared_conferments",
+  "info": {
+    "displayName": "Conferments",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Tittle": {
+      "type": "string"
+    },
+    "PDF": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "priority": {
+      "type": "integer"
+    }
+  }
+}

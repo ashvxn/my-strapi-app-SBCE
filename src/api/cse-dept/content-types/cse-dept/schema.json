@@ -1,0 +1,80 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cse_depts",
+  "info": {
+    "singularName": "cse-dept",
+    "pluralName": "cse-depts",
+    "displayName": "DEPT",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Programmes_offered": {
+      "type": "text"
+    },
+    "About": {
+      "type": "text"
+    },
+    "HoD": {
+      "type": "text"
+    },
+    "Hod_Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Faculty": {
+      "displayName": "Faculty",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.faculty"
+    },
+    "About_images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Achivements": {
+      "displayName": "Achivements",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.achivements"
+    },
+    "Activities": {
+      "displayName": "Activities",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.activities"
+    },
+    "Dept_name": {
+      "type": "string"
+    },
+    "Association_and_clubs": {
+      "displayName": "Association_and_clubs",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.association-and-clubs"
+    },
+    "Publication": {
+      "displayName": "Publications",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.publications"
+    }
+  }
+}

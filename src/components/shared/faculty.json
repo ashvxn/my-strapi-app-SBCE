@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_shared_faculties",
+  "info": {
+    "displayName": "Faculty",
+    "icon": "emotionHappy",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Faculty_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Specialization": {
+      "type": "string"
+    },
+    "Qualification": {
+      "type": "string"
+    },
+    "Designation": {
+      "type": "string"
+    },
+    "Priority": {
+      "type": "integer"
+    },
+    "Faculty_Name": {
+      "type": "string"
+    }
+  }
+}

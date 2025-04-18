@@ -1,0 +1,169 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mtech_admissions",
+  "info": {
+    "singularName": "mtech-admission",
+    "pluralName": "mtech-admissions",
+    "displayName": "Mtech-admission",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "gender": {
+      "type": "string",
+      "required": true
+    },
+    "Nationality": {
+      "type": "string",
+      "required": true
+    },
+    "religioin": {
+      "type": "string",
+      "required": true
+    },
+    "community": {
+      "type": "string",
+      "required": true
+    },
+    "Mothertounge": {
+      "type": "string",
+      "required": true
+    },
+    "guardian": {
+      "type": "string",
+      "required": true
+    },
+    "relationship": {
+      "type": "text",
+      "required": true
+    },
+    "address": {
+      "type": "text",
+      "required": true
+    },
+    "pincode": {
+      "type": "string",
+      "required": true
+    },
+    "dob": {
+      "required": true,
+      "type": "date"
+    },
+    "telephone": {
+      "type": "string",
+      "required": false
+    },
+    "mobile": {
+      "type": "text",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "degree": {
+      "type": "text",
+      "required": false
+    },
+    "discipline": {
+      "type": "text",
+      "required": false
+    },
+    "university": {
+      "type": "text",
+      "required": false
+    },
+    "institue": {
+      "type": "text",
+      "required": false
+    },
+    "dataofpass": {
+      "type": "text"
+    },
+    "s1": {
+      "type": "decimal"
+    },
+    "s2": {
+      "type": "decimal"
+    },
+    "s3": {
+      "type": "decimal"
+    },
+    "s4": {
+      "type": "decimal"
+    },
+    "s5": {
+      "type": "decimal"
+    },
+    "s6": {
+      "type": "decimal"
+    },
+    "s7": {
+      "type": "decimal"
+    },
+    "s8": {
+      "type": "decimal"
+    },
+    "cgpa": {
+      "type": "decimal"
+    },
+    "pg_course": {
+      "type": "text",
+      "required": true
+    },
+    "gyear": {
+      "type": "string",
+      "required": true
+    },
+    "g_score": {
+      "type": "decimal",
+      "required": true
+    },
+    "DTE_reg_no": {
+      "type": "text",
+      "required": true
+    },
+    "DTE_rank": {
+      "type": "integer",
+      "required": true
+    },
+    "merit": {
+      "type": "boolean",
+      "required": true
+    },
+    "gate_valid": {
+      "type": "boolean"
+    },
+    "sign": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "pic": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "place": {
+      "type": "text",
+      "required": true
+    },
+    "date": {
+      "type": "date"
+    }
+  }
+}

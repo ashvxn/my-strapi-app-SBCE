@@ -1,0 +1,160 @@
+{
+  "kind": "collectionType",
+  "collectionName": "btech_admissions",
+  "info": {
+    "singularName": "btech-admission",
+    "pluralName": "btech-admissions",
+    "displayName": "btech-admission",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "dob": {
+      "type": "date"
+    },
+    "gender": {
+      "type": "string"
+    },
+    "nationality": {
+      "type": "string"
+    },
+    "religion": {
+      "type": "string"
+    },
+    "community": {
+      "type": "string"
+    },
+    "motherTongue": {
+      "type": "string"
+    },
+    "parent": {
+      "type": "string"
+    },
+    "relationship": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "pincode": {
+      "type": "string"
+    },
+    "telephone": {
+      "type": "string"
+    },
+    "mobile": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "board10": {
+      "type": "string"
+    },
+    "institution10": {
+      "type": "text"
+    },
+    "marks10": {
+      "type": "string"
+    },
+    "maximumMarks10": {
+      "type": "string"
+    },
+    "percentage10": {
+      "type": "string"
+    },
+    "board12": {
+      "type": "string"
+    },
+    "institution12": {
+      "type": "text"
+    },
+    "date12": {
+      "type": "text"
+    },
+    "marks12": {
+      "type": "string"
+    },
+    "date10": {
+      "type": "text"
+    },
+    "boardDiploma": {
+      "type": "text"
+    },
+    "institutionDiploma": {
+      "type": "text"
+    },
+    "dateDiploma": {
+      "type": "text"
+    },
+    "markDiploma": {
+      "type": "string"
+    },
+    "maximumMarksDiploma": {
+      "type": "string"
+    },
+    "maximumMarks12": {
+      "type": "string"
+    },
+    "percentage12": {
+      "type": "string"
+    },
+    "pcm": {
+      "type": "string"
+    },
+    "maximumMarksPCM": {
+      "type": "string"
+    },
+    "entrance": {
+      "type": "string"
+    },
+    "regNo": {
+      "type": "string"
+    },
+    "rank": {
+      "type": "string"
+    },
+    "branchPrefered": {
+      "type": "text"
+    },
+    "admissionType": {
+      "type": "text"
+    },
+    "photo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "parentSignature": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "applicantSignature": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

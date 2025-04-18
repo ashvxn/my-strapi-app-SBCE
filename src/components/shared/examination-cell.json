@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_examination_cells",
+  "info": {
+    "displayName": "Examination_cell"
+  },
+  "options": {},
+  "attributes": {
+    "notifications": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.conferments"
+    },
+    "forms": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.conferments"
+    }
+  }
+}

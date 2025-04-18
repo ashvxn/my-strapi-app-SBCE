@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_shared_activities",
+  "info": {
+    "displayName": "Activities",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "About_activity": {
+      "type": "text"
+    },
+    "Heading": {
+      "type": "string"
+    }
+  }
+}

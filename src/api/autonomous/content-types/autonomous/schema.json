@@ -1,0 +1,53 @@
+{
+  "kind": "singleType",
+  "collectionName": "autonomouss",
+  "info": {
+    "singularName": "autonomous",
+    "pluralName": "autonomouss",
+    "displayName": "Autonomous",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "conforments": {
+      "displayName": "Conferments",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.conferments"
+    },
+    "Academic_council": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.conferments"
+    },
+    "Finance": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.conferments"
+    },
+    "Board_of_studies": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.conferments"
+    },
+    "Syllabus": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.conferments"
+    },
+    "examination_cell": {
+      "displayName": "Examination_cell",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.examination-cell"
+    },
+    "governing_body": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.conferments"
+    }
+  }
+}

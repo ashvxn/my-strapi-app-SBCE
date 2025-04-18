@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_achivements",
+  "info": {
+    "displayName": "Achivements",
+    "icon": "star",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "About_achievement": {
+      "type": "text"
+    },
+    "Heading": {
+      "type": "string"
+    }
+  }
+}

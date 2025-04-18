@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_publications",
+  "info": {
+    "displayName": "Publications"
+  },
+  "options": {},
+  "attributes": {
+    "Publisher_name": {
+      "type": "string"
+    },
+    "publication_link": {
+      "type": "string"
+    },
+    "publication_description": {
+      "type": "text"
+    },
+    "publication_date": {
+      "type": "date"
+    }
+  }
+}
